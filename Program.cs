@@ -4,7 +4,8 @@ using System.Diagnostics;
 namespace GeneticSolver {
 	class MainClass {
 		public static void Main(string[] args) {
-			string source = "Hello, World!";
+			Console.Write("Enter a String using only ASCII characters: ");
+			string source = Console.ReadLine();
 			Solver solver = new Solver();
 
 			// Hamming Distance

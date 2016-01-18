@@ -12,6 +12,11 @@ namespace GeneticSolver {
             var parent = GenerateString(length);
             var parentFitness = getFitness(parent);
 
+			// Print the first generation just to look nice
+			Console.WriteLine("Generation: {0} | Fitness: {1} | {2}",
+				generation, parentFitness, parent
+			);
+
             while (parentFitness != 0) {
                 var child = Mutate(parent);
                 var childFitness = getFitness(child);
@@ -41,8 +46,7 @@ namespace GeneticSolver {
 
         private string GenerateString(int size) {
             char[] chars = new char[size];
-            for (int i=0; i < size; i++)
-            {
+            for (int i=0; i < size; i++) {
                 chars[i] = ascii[random.Next(ascii.Length)];
             }
 
