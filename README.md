@@ -2,18 +2,20 @@
 [[2016-01-13] Challenge #249](https://www.reddit.com/r/dailyprogrammer/comments/40rs67/20160113_challenge_249_intermediate_hello_world/) [Intermediate] Hello World Genetic or Evolutionary Algorithm
 
 ```
-Generation: 81 | Fitness: 12 | p"S~ k`r3dlB 
-Generation: 234 | Fitness: 11 | p"S~ k`rodlB 
-Generation: 363 | Fitness: 10 | p"S~ok`rodlB 
-Generation: 464 | Fitness: 9 | p"S~ok rodlB 
-Generation: 623 | Fitness: 8 | p"Slok rodlB 
-Generation: 759 | Fitness: 7 | p"Slok rorlB 
-Generation: 1586 | Fitness: 6 | p"llok rorlB 
-Generation: 1846 | Fitness: 5 | pellok rorlB 
-Generation: 2133 | Fitness: 4 | pellok rorld 
-Generation: 2536 | Fitness: 3 | Hellok rorld 
-Generation: 3814 | Fitness: 2 | Hellok World 
-Generation: 4498 | Fitness: 1 | Hello, World 
-Generation: 5660 | Fitness: 0 | Hello, World!
-Elapsed time is 0.063 ms
+Enter a String using only ASCII characters: Hello, World!
+Generation: 1 | Fitness: 13 | r"^[R7aem`Qf1
+Generation: 60 | Fitness: 12 | r"^[R7aem`Qf!
+Generation: 150 | Fitness: 11 | r"^[R7 em`Qf!
+Generation: 182 | Fitness: 10 | H"^[R7 em`Qf!
+Generation: 393 | Fitness: 9 | H"^lR7 em`Qf!
+Generation: 776 | Fitness: 8 | H"llR7 em`Qf!
+Generation: 891 | Fitness: 7 | H"llo7 em`Qf!
+Generation: 922 | Fitness: 6 | H"llo7 Wm`Qf!
+Generation: 1088 | Fitness: 5 | H"llo, Wm`Qf!
+Generation: 1328 | Fitness: 4 | Hello, Wm`Qf!
+Generation: 1569 | Fitness: 3 | Hello, WmrQf!
+Generation: 1637 | Fitness: 2 | Hello, WorQf!
+Generation: 2073 | Fitness: 1 | Hello, WorQd!
+Generation: 3065 | Fitness: 0 | Hello, World!
+Elapsed time is 0.006 ms
 ```
